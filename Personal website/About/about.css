@@ -1,4 +1,4 @@
-
+/* Navbar */
 .navbar {
     background-color: black;
 }
@@ -12,9 +12,4 @@
     padding: 24px;
     font-size: 16px;
     border: none;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
 }

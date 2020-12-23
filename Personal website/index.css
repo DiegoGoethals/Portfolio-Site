@@ -1,0 +1,35 @@
+/* Navbar */
+.navbar {
+    background-color: black;
+}
+
+/* Navbar Button */
+.navbutton {
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Text on the page */
+.body_text {
+    text-align: center;
+}
+
+/* Hyperlinks */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Almost everything on the page */
+body {
+    background-image: url("Images/home_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+}
