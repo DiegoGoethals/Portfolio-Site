@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-    background-color: black;
+    background: transparent;
 }
 
 /* Navbar Button */
@@ -12,4 +12,9 @@
     padding: 24px;
     font-size: 16px;
     border: none;
+}
+
+body {
+    background-color: black;
+    color: white;
 }
