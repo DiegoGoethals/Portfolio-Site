@@ -1,0 +1,38 @@
+/* Navbar */
+.navbar {
+    background: transparent;
+}
+
+/* Navbar Button */
+.navbutton {
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Text on the page */
+.body_text {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Contact div */
+#contact {
+    color: whitesmoke;
+}
+
+/* Hyperlinks */
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+/* background of the page */
+html {
+    background: url('Images/home_background.jpg') no-repeat center fixed;
+    background-size: 100% 100%;
+}
