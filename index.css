@@ -22,11 +22,26 @@
 
 /* Contact div */
 #contact {
+    width: 100%;
     color: whitesmoke;
 }
 
+#buttons {
+    display: flex;
+    justify-content: start;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
 /* Hyperlinks */
-a {
+button {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
     text-decoration: none;
     color: deepskyblue;
 }
