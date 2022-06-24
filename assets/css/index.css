@@ -48,6 +48,6 @@ button {
 
 /* background of the page */
 html {
-    background: url('Images/home_background.jpg') no-repeat center fixed;
+    background: url('../Images/home_background.jpg') no-repeat center fixed;
     background-size: 100% 100%;
 }
