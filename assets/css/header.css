@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #041952;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+/* Navbar */
+nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navbar Button */
+.navbutton {
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
