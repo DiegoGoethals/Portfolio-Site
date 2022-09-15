@@ -1,7 +1,6 @@
 /* Text on the page */
 .body_text {
     text-align: center;
-    color: whitesmoke;
 }
 
 /* Contact div */
@@ -28,10 +27,4 @@ button {
     border-radius: 50%;
     text-decoration: none;
     color: deepskyblue;
-}
-
-/* background of the page */
-html {
-    background: url('../Images/home_background.jpg') no-repeat center fixed;
-    background-size: 100% 100%;
 }
