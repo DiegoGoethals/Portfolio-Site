@@ -1,11 +1,16 @@
 header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: whitesmoke;
+    height: 10vh;
+    align-items: center;
 }
 
 /* Navbar */
 nav {
-    background: transparent;
     display: flex;
     justify-content: space-between;
 }
@@ -13,13 +18,11 @@ nav {
 /* Navbar Button */
 .navbutton {
     display: inline-block;
-    background-color: black;
-    color: limegreen;
+    color: #333;
     text-decoration: none;
-    padding: 24px;
-    font-size: 16px;
+    padding: 1.5rem;
+    font-size: 1rem;
     border: none;
-    margin: 5px;
 }
 
 html, body {

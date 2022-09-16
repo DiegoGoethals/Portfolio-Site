@@ -1,12 +1,40 @@
-/* Text on the page */
-.body_text {
+html {
     text-align: center;
+}
+
+section {
+    height: 100vh;
+    min-height: 50vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+/* Text on the page */
+#home {
+    text-align: center;
+    align-items: center;
+    color: #333;
+    background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/common-bg.svg") center;
+}
+
+#welcome {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 800;
+}
+
+#welcomeText {
+    color: #111;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
 }
 
 /* Contact div */
 #contact {
     width: 100%;
-    color: whitesmoke;
 }
 
 #buttons {
@@ -20,11 +48,9 @@ img {
     object-fit: contain;
 }
 
-/* Hyperlinks */
 button {
     max-height: 100%;
     max-width: 100%;
     border-radius: 50%;
     text-decoration: none;
-    color: deepskyblue;
 }
