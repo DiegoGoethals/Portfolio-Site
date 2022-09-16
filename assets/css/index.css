@@ -1,12 +1,17 @@
 html {
     text-align: center;
+    font-family: Source Sans Pro;
 }
 
 section {
     height: 100vh;
-    min-height: 50vh;
+    min-height: 75vh;
     max-height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Text on the page */
