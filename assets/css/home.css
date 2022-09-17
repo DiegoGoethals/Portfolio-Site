@@ -1,35 +1,18 @@
-html {
-    text-align: center;
-    font-family: Source Sans Pro;
-}
-
-section {
-    height: 100vh;
-    min-height: 75vh;
-    max-height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Text on the page */
 #home {
-    text-align: center;
     align-items: center;
     color: #333;
     background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/common-bg.svg") center;
 }
 
-#welcome {
+#home h1 {
     font-size: 4rem;
     text-transform: uppercase;
     color: #111;
     font-weight: 800;
 }
 
-#welcomeText {
+#home p {
     color: #111;
     font-size: 1.1rem;
     text-align: center;

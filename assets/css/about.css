@@ -1,19 +1,41 @@
-.picture {
+#me {
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
-    width: 500px;
-    text-align: center;
-}
-
-.info {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-    width: 500px;
+    width: 31.25rem;
     text-align: center;
 }
 
 #about {
     background-color: #fafafa;
+    display: flex;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#about h1 {
+    font-weight: 750;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#skills {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#skillCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: lightgray;
 }
