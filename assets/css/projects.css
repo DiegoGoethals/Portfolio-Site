@@ -3,3 +3,9 @@ a {
     color: lightgreen;
     text-decoration: underline;
 }
+
+#projects h1 {
+    font-weight: 750;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

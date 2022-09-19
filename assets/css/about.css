@@ -4,6 +4,7 @@
     vertical-align: middle;
     width: 31.25rem;
     text-align: start;
+    font-size: 1.2rem;
 }
 
 #about {
@@ -32,6 +33,8 @@
 #skillCards {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
 }
 
 .skill {
