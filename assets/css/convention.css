@@ -6,6 +6,11 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 section {
     height: 100vh;
     min-height: 75vh;
@@ -32,4 +37,22 @@ aside {
 aside img {
     width: 2vw;
     height: auto;
+}
+
+h1 {
+    font-weight: 750;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.titleText {
+    font-size: 1.2rem;
+}
+
+footer {
+    color: whitesmoke;
+    height: 100%;
+    background-color: black;
+    bottom: 0;
+    padding: 0.1%;
 }
