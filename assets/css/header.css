@@ -10,6 +10,10 @@ header {
     align-items: center;
 }
 
+header h2 {
+    padding-left: 2rem;
+}
+
 /* Navbar */
 nav {
     display: flex;

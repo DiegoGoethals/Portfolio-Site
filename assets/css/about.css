@@ -1,6 +1,4 @@
 #me {
-    margin-left: auto;
-    margin-right: auto;
     vertical-align: middle;
     width: 31.25rem;
     text-align: start;
@@ -15,6 +13,9 @@
 #info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    overflow: auto;
+    width: 100%;
+    justify-items: center;
 }
 
 #skills {

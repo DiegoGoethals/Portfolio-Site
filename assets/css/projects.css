@@ -1,0 +1,13 @@
+#projects li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#projects li div {
+    width: 100%;
+}
+
+#projects li img {
+    width: 100%;
+    height: auto;
+}
