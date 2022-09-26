@@ -38,3 +38,7 @@
     border-radius: 1rem;
     background-color: lightgray;
 }
+
+.certificate:hover {
+    cursor: pointer;
+}
