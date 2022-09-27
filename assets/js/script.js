@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
     setAge();
     document.querySelectorAll(".certificate").forEach(certificate => {
-        certificate.addEventListener("click", openPDF);
+        certificate.addEventListener("click", openImage);
     });
     document.getElementById("close").addEventListener("click", off);
 }
@@ -18,7 +18,7 @@ function calculateAge(birthday) {
     return new Date(new Date() - birthday).getFullYear() - 1970;
 }
 
-function openPDF(e) {
+function openImage(e) {
     const skill = e.target.innerText;
     const overlay = document.getElementById("overlay");
     overlay.insertAdjacentHTML("beforeend", `
