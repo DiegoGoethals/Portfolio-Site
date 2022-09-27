@@ -1,6 +1,7 @@
 #projects li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 #projects li div {
@@ -10,4 +11,19 @@
 #projects li img {
     width: 100%;
     height: auto;
+}
+
+#projects li button {
+    border-radius: 10%;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 1%;
+}
+
+#projects li button:hover {
+    border-radius: 10%;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 1%;
+    box-shadow: 0 0 1rem 0.5rem grey;
 }
