@@ -21,9 +21,5 @@
 }
 
 #projects li button:hover {
-    border-radius: 10%;
-    background-color: gray;
-    color: whitesmoke;
-    padding: 1%;
     box-shadow: 0 0 1rem 0.5rem grey;
 }
