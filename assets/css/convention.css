@@ -12,14 +12,16 @@ html, body {
 }
 
 section {
-    height: 100vh;
-    min-height: 75vh;
-    max-height: 100vh;
+    min-height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    filter: blur(0.25rem);
+    transform: translateX(-100%);
+    transition: all 1s ;
 }
 
 aside {
@@ -95,4 +97,16 @@ footer p, footer div {
     cursor: pointer;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 3rem;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+    section {
+        transition: none;
+    }
 }
