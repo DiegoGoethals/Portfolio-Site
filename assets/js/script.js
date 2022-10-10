@@ -8,16 +8,7 @@ function init() {
         certificate.addEventListener("click", openImage);
     });
     document.getElementById("close").addEventListener("click", off);
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            } else {
-                entry.target.classList.remove("show");
-            }
-        });
-    });
-    fadeIn(observer);
+    fadeIn();
 }
 
 function setAge() {
@@ -43,7 +34,16 @@ function off() {
     overlay.removeChild(document.querySelector(".imgOverlay"));
 }
 
-function fadeIn(observer) {
+function fadeIn() {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            } else {
+                entry.target.classList.remove("show");
+            }
+        });
+    });
     const elements = document.querySelectorAll("section");
     elements.forEach(element => observer.observe(element));
 }
