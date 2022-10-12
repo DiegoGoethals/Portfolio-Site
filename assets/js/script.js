@@ -1,6 +1,6 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", init);
+init();
 
 function init() {
     setAge();
@@ -47,4 +47,3 @@ function fadeIn() {
     const elements = document.querySelectorAll("section");
     elements.forEach(element => observer.observe(element));
 }
-
