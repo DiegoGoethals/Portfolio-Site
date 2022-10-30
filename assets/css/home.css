@@ -17,3 +17,14 @@
     width: 100%;
     font-weight: 400;
 }
+
+aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    top: 50%;
+    z-index: 1;
+    background-color: whitesmoke;
+    transform: translateY(-50%);
+}
