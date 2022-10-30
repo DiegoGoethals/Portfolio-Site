@@ -26,11 +26,13 @@ function openImage(e) {
     <img class="imgOverlay"
     src="assets/certificates/${skill}.jpg" alt="${skill} certificate"</img>`);
     overlay.style.display = "block";
+    document.querySelector("body").style.overflow = "hidden";
 }
 
 function off() {
     const overlay = document.getElementById("overlay")
     overlay.style.display = "none";
+    document.querySelector("body").style.overflow = "auto";
     overlay.removeChild(document.querySelector(".imgOverlay"));
 }
 
