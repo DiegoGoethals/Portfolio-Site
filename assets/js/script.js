@@ -1,10 +1,5 @@
 "use strict";
 
-// global variables to make typewriter work as it should
-let _i = 0;
-const _sentences = ["I'm a student", "I'm a Full Stack Developer"];
-let _sentence = 0;
-
 init();
 
 function init() {
@@ -14,7 +9,7 @@ function init() {
     });
     document.getElementById("close").addEventListener("click", off);
     fadeIn();
-    typeWriter();
+    const typeWriter = new Typewriter();
 }
 
 function setAge() {
@@ -56,28 +51,4 @@ function fadeIn() {
     });
     const elements = document.querySelectorAll("section");
     elements.forEach(element => observer.observe(element));
-}
-
-function typeWriter() {
-    const txt = _sentences[_sentence];
-    if (_i < txt.length) {
-        document.querySelector("#home > h3").innerHTML += txt.charAt(_i);
-        _i++;
-        setTimeout(typeWriter, 300);
-    } else {
-        setTimeout(eraseWriter, 300);
-    }
-}
-
-function eraseWriter() {
-    const str = document.querySelector("#home > h3").innerHTML;
-    if (_i > 0) {
-        document.querySelector("#home > h3").innerHTML = str.slice(0, -1);
-        _i--;
-        setTimeout(eraseWriter, 100);
-    } else {
-        _sentence++;
-        _sentence %= _sentences.length;
-        setTimeout(typeWriter, 100);
-    }
 }
