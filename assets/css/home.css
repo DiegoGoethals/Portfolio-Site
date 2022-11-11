@@ -11,11 +11,18 @@
     font-weight: 800;
 }
 
-#home p {
-    font-size: 1.1rem;
+#home h3 {
+    font-size: 1.8rem;
     text-align: center;
     width: 100%;
     font-weight: 400;
+}
+
+#home h3::after {
+    content: "|";
+    color: whitesmoke;
+    font-size: 1.8rem;
+    animation: flicker 1s ease infinite;
 }
 
 aside {
@@ -27,4 +34,13 @@ aside {
     z-index: 1;
     background-color: whitesmoke;
     transform: translateY(-50%);
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

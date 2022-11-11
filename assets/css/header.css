@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 2;
     background-color: #fff;
@@ -14,13 +14,11 @@ header h2 {
     padding-left: 2rem;
 }
 
-/* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
 }
 
-/* Navbar Button */
 .navbutton {
     display: inline-block;
     color: #333;
