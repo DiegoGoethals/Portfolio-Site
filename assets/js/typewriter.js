@@ -4,7 +4,7 @@ class Typewriter {
 
     constructor() {
         this.index = 0;
-        this.sentences = ["I'm a student", "I'm a Full Stack Developer"];
+        this.sentences = ["student", "Full Stack Developer"];
         this.sentence = 0;
         this.typeSpeed = 300;
         this.type();
