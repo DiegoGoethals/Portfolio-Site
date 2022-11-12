@@ -22,6 +22,7 @@
     content: "|";
     color: whitesmoke;
     font-size: 1.8rem;
+    opacity: 0;
     animation: flicker 1s ease infinite;
 }
 
@@ -37,10 +38,7 @@ aside {
 }
 
 @keyframes flicker {
-    0% {
-        opacity: 0;
-    }
-    100% {
+    to {
         opacity: 1;
     }
 }
