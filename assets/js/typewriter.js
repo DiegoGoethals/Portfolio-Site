@@ -4,14 +4,14 @@ class Typewriter {
 
     constructor() {
         this.index = 0;
-        this.sentences = ["student", "Full Stack Developer"];
-        this.sentence = 0;
+        this.words = ["student", "Full Stack Developer"];
+        this.word = 0;
         this.typeSpeed = 300;
         this.type();
     }
 
     type() {
-        const txt = this.sentences[this.sentence];
+        const txt = this.words[this.word];
         if (this.index < txt.length) {
             document.querySelector("#home > h3").innerHTML += txt.charAt(this.index);
             this.index++;
@@ -28,9 +28,13 @@ class Typewriter {
             this.index--;
             setTimeout(() => this.erase(), 100);
         } else {
-            this.sentence++;
-            this.sentence %= this.sentences.length;
+            this.changeWord();
             setTimeout(() => this.type(), this.typeSpeed);
         }
+    }
+
+    changeWord() {
+        this.word++;
+        this.word %= this.words.length;
     }
 }
