@@ -33,10 +33,12 @@ function openImage(e) {
 
 function off() {
     const overlay = document.getElementById("overlay")
+    try {
+        overlay.removeChild(document.querySelector(".imgOverlay"));
+    } catch (error) {}
     overlay.style.display = "none";
     document.querySelector("body").style.overflow = "auto";
     document.querySelector("body").style.marginRight = "0";
-    overlay.removeChild(document.querySelector(".imgOverlay"));
 }
 
 function fadeIn() {
