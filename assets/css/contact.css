@@ -2,6 +2,9 @@
     align-items: center;
     color: whitesmoke;
     background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/common-bg.svg") center;
+    opacity: 1;
+    filter: none;
+    transform: translateX(0%);
 }
 
 form {

@@ -44,7 +44,7 @@ function off() {
 function fadeIn() {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
+            if (entry.isIntersecting && !(entry.target.id === "contact")) {
                 entry.target.classList.add("show");
             } else {
                 entry.target.classList.remove("show");
