@@ -9,7 +9,7 @@ function init() {
     });
     document.getElementById("close").addEventListener("click", off);
     fadeIn();
-    const typeWriter = new Typewriter();
+    const typeWriter = new Typewriter(["student", "Full Stack Developer"]);
 }
 
 function setAge() {

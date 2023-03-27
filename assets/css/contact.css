@@ -5,6 +5,7 @@
     opacity: 1;
     filter: none;
     transform: translateX(0%);
+    overflow: hidden;
 }
 
 form {

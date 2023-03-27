@@ -1,8 +1,9 @@
 #me {
     vertical-align: middle;
-    width: 31.25rem;
+    width: 50vw;
     text-align: start;
     font-size: 1.2rem;
+    padding-left: 1rem;
 }
 
 #about {

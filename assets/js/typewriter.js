@@ -2,9 +2,9 @@
 
 class Typewriter {
 
-    constructor() {
+    constructor(words) {
         this.index = 0;
-        this.words = ["student", "Full Stack Developer"];
+        this.words = words;
         this.word = 0;
         this.typeSpeed = 300;
         this.type();

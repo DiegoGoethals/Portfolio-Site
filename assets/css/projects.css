@@ -22,11 +22,11 @@
     background-color: rgba(0, 0, 0, .8);
     border-radius: 1rem;
     color: whitesmoke;
-    box-shadow: 0 0.2rem rgba(0, 0, 0, .7);
+    box-shadow: 0 0.4rem rgba(0, 0, 0, .7);
 }
 #projects li button:hover {
     top: 0.2rem;
-    box-shadow: 0 0.1rem rgba(0, 0, 0, .7);
+    box-shadow: 0 0.2rem rgba(0, 0, 0, .7);
 }
 
 #projects li button:active {
