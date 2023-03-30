@@ -11,6 +11,10 @@ html, body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 section {
     min-height: 102vh;
     position: relative;

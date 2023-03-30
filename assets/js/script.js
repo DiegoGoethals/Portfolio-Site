@@ -8,6 +8,10 @@ function init() {
         certificate.addEventListener("click", openImage);
     });
     document.getElementById("close").addEventListener("click", off);
+    document.querySelectorAll("#projects li").forEach(li => {
+        li.addEventListener("mouseover", projectsEffect);
+        li.addEventListener("mouseout", noProjectsEffect);
+    });
     fadeIn();
     const typeWriter = new Typewriter(["student", "Full Stack Developer"]);
 }
@@ -53,4 +57,20 @@ function fadeIn() {
     });
     const elements = document.querySelectorAll("section");
     elements.forEach(element => observer.observe(element));
+}
+
+function projectsEffect(e) {
+    const project = e.target.parentElement;
+    const img = project.firstElementChild;
+    const h3 = project.lastElementChild;
+    img.style.opacity = "1";
+    h3.style.opacity = "0";
+}
+
+function noProjectsEffect(e) {
+    const project = e.target.parentElement;
+    const img = project.firstElementChild;
+    const h3 = project.lastElementChild;
+    img.style.opacity = "0.1";
+    h3.style.opacity = "1";
 }
