@@ -1,6 +1,6 @@
 html {
-    background-color: whitesmoke;
-    color: #333;
+    background-color: rgb(34,39,51);
+    color: #DBE8D4;
     text-align: center;
     font-family: Source Sans Pro, sans-serif;
     scroll-behavior: smooth;
@@ -27,11 +27,11 @@ section {
 .socials {
     width: 3vw;
     height: auto;
-    background-color: whitesmoke;
+    background-color: #DBE8D4;
 }
 
 .socials:hover {
-    background-color: #61a5c2;
+    background-color: rgb(64,69,111);
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
 }
 
 a {
-    color: deepskyblue;
+    color: #73CCA8;
 }
 
 .titleText {

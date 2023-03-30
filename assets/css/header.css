@@ -5,9 +5,10 @@ header {
     width: 100vw;
     top: 0;
     z-index: 2;
-    background-color: #fff;
+    background-color: rgb(82,94,101);
     height: 10vh;
     align-items: center;
+    color: #DBE8D4;
 }
 
 header h2 {
@@ -22,10 +23,20 @@ nav {
 
 .navbutton {
     display: inline-block;
-    color: #333;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.5rem;
     font-size: 1rem;
     border: none;
+    color: #DBE8D4;
+}
+
+.navbutton:hover {
+    color: #73CCA8;
+    border-bottom: 0.25rem solid #73CCA8;
+}
+
+.active {
+    color: #73CCA8;
+    border-bottom: 0.25rem solid #73CCA8;
 }
