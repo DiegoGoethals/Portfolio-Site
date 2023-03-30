@@ -1,0 +1,37 @@
+section {
+    opacity: 1;
+    filter: none;
+    transform: translateX(0%);
+    background-color: rgb(34,39,51);
+    color: #DBE8D4;
+    font-size: 1.2rem;
+}
+
+section div {
+    margin: 0 25%;
+    padding: 0;
+}
+
+section button {
+    background-color: rgb(34,39,51);
+    color: #DBE8D4;
+    border: #DBE8D4 1px solid;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: #DBE8D4;
+    color: rgb(34,39,51);
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+a {
+    color: #73CCA8;
+}
