@@ -13,6 +13,7 @@ header {
 
 header h2 {
     padding-left: 2rem;
+    border-bottom: 0.25rem solid transparent;
 }
 
 nav {
@@ -29,8 +30,10 @@ nav {
     font-size: 1rem;
     border: none;
     color: #DBE8D4;
+    border-bottom: 0.25rem solid transparent;
 }
 
 .navbutton:hover {
     color: #73CCA8;
+    border-bottom: 0.25rem solid #73CCA8;
 }
