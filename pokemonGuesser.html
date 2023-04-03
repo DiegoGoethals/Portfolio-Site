@@ -6,6 +6,7 @@
     <title>Who's that Pokémon game</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/convention.css">
     <link rel="stylesheet" href="assets/css/projectPresentation.css">
@@ -18,7 +19,6 @@
         <a class="navbutton" type="button" href="index.html#home">Home</a>
         <a class="navbutton" type="button" href="index.html#about">About me</a>
         <a class="navbutton" type="button" href="index.html#projects">Projects</a>
-        <a href="index.html#contact" class="navbutton">Contact</a>
     </nav>
 </header>
 <section>
@@ -38,11 +38,16 @@
     </a>
 </section>
 <footer>
-    <p>&#169;Copyright 2022, Made by <a href="index.html">Diego Goethals</a></p>
-    <div>
-        <a href="https://www.linkedin.com/in/diego-goethals-9a17aa23a/" target="_blank"><img class="socials" src="assets/images/linkedin-dark.svg" alt="LinkedIn"></a>
-        <a href="https://github.com/DiegoGoethals" target="_blank"><img class="socials" src="assets/images/github-dark.svg" alt="GitHub"></a>
-    </div>
+    <ul id="contact">
+        <li id="email"><a href="mailto:goethalsdiego@gmail.com?SUBJECT=Site">goethalsdiego@gmail.com</a></li>
+        <li>
+            <ul class="socials">
+                <li class="social"><a href="https://github.com/DiegoGoethals" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social"><a href="https://www.linkedin.com/in/diego-goethals-9a17aa23a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </li>
+        <li><p>&#169;Copyright 2022, Made by <a href="index.html">Diego Goethals</a></p></li>
+    </ul>
 </footer>
 </body>
 </html>

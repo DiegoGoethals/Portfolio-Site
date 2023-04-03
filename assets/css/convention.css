@@ -32,12 +32,40 @@ section {
     width: 100%;
     height: fit-content;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.social {
+    background-color: #DBE8D4;
+    border-radius: 50%;
+    width: fit-content;
+    aspect-ratio: 1;
+    color: #2E3445;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social {
-    
+.social:hover {
+    background-color: #73CCA8;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    aspect-ratio: 1;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.social a i{
+    color: #2E3445;
+    aspect-ratio: 1;
+    padding: 0.3rem;
 }
 
 h1 {
@@ -56,19 +84,29 @@ a {
 
 footer {
     color: #DBE8D4;
-    height: 50vh;
+    height: 20vh;
     bottom: 0;
 }
 
 #contact {
-    height: 50vh;
-    padding: 0.1%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     text-align: center;
+    padding: 0;
+}
+
+#email a{
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    text-decoration: none;
+}
+
+#email :hover {
+    border-bottom: #73CCA8 solid 0.25rem;
 }
 
 #contact::before {
@@ -77,8 +115,8 @@ footer {
     position: absolute;
     top: 0;
     left: 50%;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     margin-left: -50%;
     z-index: -1;
     border-top-right-radius: 50% 100%;
