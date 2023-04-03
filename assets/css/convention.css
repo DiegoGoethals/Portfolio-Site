@@ -29,13 +29,15 @@ section {
 }
 
 .socials {
-    width: 3rem;
-    height: auto;
-    background-color: #DBE8D4;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.socials:hover {
-    background-color: rgb(64,69,111);
+.social {
+    
 }
 
 h1 {
@@ -54,13 +56,34 @@ a {
 
 footer {
     color: #DBE8D4;
-    height: 100%;
-    background-color: rgb(82,94,101);
+    height: 50vh;
     bottom: 0;
+}
+
+#contact {
+    height: 50vh;
     padding: 0.1%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+#contact::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 50vh;
+    margin-left: -50%;
+    z-index: -1;
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    background-color: #2E3445;
 }
 
 footer p, footer div {
