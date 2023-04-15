@@ -27,9 +27,11 @@ section button:hover {
 }
 
 h1 {
+    padding-top: 1rem;
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 800;
+    margin-bottom: 0.5rem;
 }
 
 #skills {
@@ -42,7 +44,7 @@ h1 {
 }
 
 #skills h2 {
-    border-bottom: 0.25rem solid #DBE8D4;
+    text-decoration: underline 0.25rem solid #DBE8D4;
     margin-bottom: 0.25rem;
 }
 
@@ -51,4 +53,22 @@ h1 {
     padding: 0;
     list-style-type: circle;
     text-align: start;
+}
+
+#links h2 {
+    margin-bottom: 0.2rem;
+    text-decoration: underline 0.25rem solid #DBE8D4;
+}
+
+#links ul {
+    margin-top: 0.2rem;
+    padding: 0;
+}
+
+#images {
+    border: 0.1rem solid #DBE8D4;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+    align-items: center;
 }
