@@ -7,11 +7,11 @@ function init() {
 }
 
 function showScreenshots() {
-    if (document.getElementById("images").style.display === "none") {
-        document.getElementById("images").style.display = "grid";
-        document.getElementById("screenshots").innerHTML = "Hide screenshots";
-    } else {
+    if (document.getElementById("images").style.display === "grid") {
         document.getElementById("images").style.display = "none";
         document.getElementById("screenshots").innerHTML = "Show screenshots";
+    } else {
+        document.getElementById("images").style.display = "grid";
+        document.getElementById("screenshots").innerHTML = "Hide screenshots";
     }
 }
