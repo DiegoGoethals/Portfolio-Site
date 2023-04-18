@@ -1,17 +1,29 @@
 "use strict";
 
+let image = 0;
 init();
 
 function init() {
-    document.getElementById("screenshots").addEventListener("click", showScreenshots);
+    document.querySelectorAll("button").forEach(button => {
+        button.addEventListener("click", changeImage);
+    });
+    showImage();
 }
 
-function showScreenshots() {
-    if (document.getElementById("images").style.display === "grid") {
-        document.getElementById("images").style.display = "none";
-        document.getElementById("screenshots").innerHTML = "Show screenshots";
+function mod(a, n) {
+    return a - (n * Math.floor(a/n));
+}
+
+function changeImage(e) {
+    if (e.target.parentElement.id === "next") {
+        image++;
     } else {
-        document.getElementById("images").style.display = "grid";
-        document.getElementById("screenshots").innerHTML = "Hide screenshots";
+        image--;
     }
+    image = mod(image, 9);
+    showImage();
+}
+
+function showImage() {
+    document.getElementById("screenshot").src = `assets/images/caropoly screenshots/${image}.png`;
 }

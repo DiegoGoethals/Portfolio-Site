@@ -21,22 +21,29 @@
     <link rel="stylesheet" href="assets/css/projectPresentation.css">
 
     <script src="assets/js/caropoly.js" defer></script>
-    <script defer src="assets/js/header.js"></script>
+    <script defer src="assets/js/commonUi.js"></script>
 </head>
 <body>
 <header></header>
 <section>
     <h1>Caropoly</h1>
+    <div id="screenshotWrapper">
+        <div id="buttons">
+            <button id="previous"><i class="fa-solid fa-circle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-circle-right"></i></button>
+        </div>
+        <img src="assets/images/caropoly%20screenshots/0.PNG" alt="caropoly screenshot" id="screenshot">
+    </div>
     <div>
         <p>
             This was a project we had to make in our first year at Howest. The assignment was to create our own theme of
             Monopoly. We got a little code from our professors, but we had to implement all the logic in the backend
             ourselves, and we had to decide on how we would make the "gameplay" in the frontend. So, in our group of 5 we
             decided to go with a car theme. I say group of 5 but in the end only 2 or 3 people actually did something.
-            Because only 2 or 3 people actually did something, we had to do a lot of work in the end and the game isn't
-            completely finished yet. I am talking about this project here to show you that I can work with Java as well
-            as JavaScript, HTML and CSS. I am currently trying to get the rest of the bugs out of the game on my own and
-            will post a link to the completed game when it's finished.
+            My contribution to the project was practically everything in both Java and JavaScript. I made about 75% of
+            the backend and 70% of all the frontend JavaScript code. The styling in HTML and CSS was done by the others
+            in my group. If you click the links below you can see the code for the backend and frontend. You can do
+            basically everything in the game, except for trading and auctioning properties.
         </p>
     </div>
     <div id="links">
@@ -46,18 +53,6 @@
             <li><a href="https://github.com/DiegoGoethals/Monopoly-Front-end" target="_blank">
                 Caropoly frontend</a></li>
         </ul>
-    </div>
-    <button id="screenshots">Show screenshots</button>
-    <div id="images">
-        <article><img src="assets/images/caropoly%20screenshots/0.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/1.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/2.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/3.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/4.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/5.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/6.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/7.PNG" alt="caropoly screenshot"></article>
-        <article><img src="assets/images/caropoly%20screenshots/8.PNG" alt="caropoly screenshot"></article>
     </div>
     <div id="skills">
         <h2>Skills used</h2>
@@ -69,17 +64,6 @@
         </ul>
     </div>
 </section>
-<footer>
-    <ul id="contact">
-        <li id="email"><a href="mailto:goethalsdiego@gmail.com?SUBJECT=Site">goethalsdiego@gmail.com</a></li>
-        <li>
-            <ul class="socials">
-                <li class="social"><a href="https://github.com/DiegoGoethals" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                <li class="social"><a href="https://www.linkedin.com/in/diego-goethals-9a17aa23a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
-        </li>
-        <li><p>&#169;Copyright 2022, Made by <a href="index.html">Diego Goethals</a></p></li>
-    </ul>
-</footer>
+<footer></footer>
 </body>
 </html>
