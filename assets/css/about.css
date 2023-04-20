@@ -1,13 +1,8 @@
 #me {
     vertical-align: middle;
-    width: 50vw;
+    width: 75%;
     text-align: start;
     font-size: 1.2rem;
-    padding-left: 1rem;
-}
-
-#about {
-    display: flex;
 }
 
 #info {
