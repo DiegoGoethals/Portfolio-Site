@@ -49,7 +49,7 @@ nav {
     border-bottom: 0.25rem solid transparent;
 }
 
-.navbutton:hover {
+.navbutton:hover, .selected {
     color: #73CCA8;
     border-bottom: 0.25rem solid #73CCA8;
 }
