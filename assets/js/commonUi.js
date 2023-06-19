@@ -14,6 +14,7 @@ function setHeader() {
             <nav>
                 <a class="navbutton" type="button" href="#home">Home</a>
                 <a class="navbutton" type="button" href="#about">About me</a>
+                <a class="navbutton" type="button" href="#resume">Resume</a>
                 <a class="navbutton" type="button" href="#projects">Projects</a>
             </nav>`;
     } else {
@@ -21,6 +22,7 @@ function setHeader() {
             <nav>
                 <a class="navbutton" type="button" href="index.html#home">Home</a>
                 <a class="navbutton" type="button" href="index.html#about">About me</a>
+                <a class="navbutton" type="button" href="index.html#resume">Resume</a>
                 <a class="navbutton" type="button" href="index.html#projects">Projects</a>
             </nav>
         `;
