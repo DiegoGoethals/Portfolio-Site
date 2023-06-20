@@ -1,5 +1,3 @@
-"use strict";
-
 class Typewriter {
 
     constructor(words) {
@@ -12,22 +10,22 @@ class Typewriter {
 
     type() {
         const txt = this.words[this.word];
-        if (this.index < txt.length) {
+        if (this.index < txt.length && document.querySelector("#home > h3")) {
             document.querySelector("#home > h3").innerHTML += txt.charAt(this.index);
             this.index++;
             setTimeout(() => this.type(), this.typeSpeed);
-        } else {
+        } else if (document.querySelector("#home > h3")) {
             setTimeout(() => this.erase(), this.typeSpeed);
         }
     }
 
     erase() {
         const str = document.querySelector("#home > h3").innerHTML;
-        if (this.index > 0) {
+        if (this.index > 0 && document.querySelector("#home > h3")) {
             document.querySelector("#home > h3").innerHTML = str.slice(0, -1);
             this.index--;
             setTimeout(() => this.erase(), 100);
-        } else {
+        } else if (document.querySelector("#home > h3")) {
             this.changeWord();
             setTimeout(() => this.type(), this.typeSpeed);
         }
@@ -38,3 +36,5 @@ class Typewriter {
         this.word %= this.words.length;
     }
 }
+
+export default Typewriter;

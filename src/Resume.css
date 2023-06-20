@@ -17,7 +17,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 1rem;
     box-shadow: 0 0 0.5rem 0 #DBE8D4;
     width: 25%;

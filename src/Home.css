@@ -1,7 +1,7 @@
 /* Text on the page */
 #home {
     align-items: center;
-    background: linear-gradient(to right, rgba(0, 4, 16, .8), rgba(0, 4, 16, .8)), url("../images/common-bg.svg") center;
+    background: linear-gradient(to right, rgba(0, 4, 16, .8), rgba(0, 4, 16, .8)), url("/public/images/common-bg.svg") center;
 }
 
 #home h1 {
@@ -22,21 +22,10 @@
     color: whitesmoke;
     font-size: 1.8rem;
     opacity: 0;
-    animation: flicker 1s ease infinite;
+    animation: typing 1s ease infinite;
 }
 
-aside {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    top: 50%;
-    z-index: 1;
-    background-color: rgb(39,44,56);
-    transform: translateY(-50%);
-}
-
-@keyframes flicker {
+@keyframes typing {
     to {
         opacity: 1;
     }

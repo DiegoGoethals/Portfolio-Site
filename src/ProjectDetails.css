@@ -1,4 +1,4 @@
-section {
+.projectDetails {
     opacity: 1;
     filter: none;
     transform: translateX(0%);
@@ -7,12 +7,12 @@ section {
     font-size: 1.2rem;
 }
 
-section div {
+.projectDetails div {
     margin: 0 25%;
     padding: 0;
 }
 
-section button {
+.projectDetails button {
     background-color: rgb(34,39,51);
     color: #DBE8D4;
     border: #DBE8D4 1px solid;
@@ -21,12 +21,12 @@ section button {
     cursor: pointer;
 }
 
-section button:hover {
+.projectDetails button:hover {
     background-color: #DBE8D4;
     color: rgb(34,39,51);
 }
 
-h1 {
+.projectDetails h1 {
     padding-top: 4rem;
     font-size: 4rem;
     text-transform: uppercase;
@@ -34,7 +34,7 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-#skills {
+.projectDetails #skills {
     font-size: 1.5rem;
     font-weight: bolder;
     display: flex;
@@ -43,24 +43,24 @@ h1 {
     justify-content: center;
 }
 
-#skills h2 {
+.projectDetails #skills h2 {
     text-decoration: underline 0.25rem solid #DBE8D4;
     margin-bottom: 0.25rem;
 }
 
-#skills ul {
+.projectDetails #skills ul {
     margin-top: 0;
     padding: 0;
     list-style-type: circle;
     text-align: start;
 }
 
-#links h2 {
+.projectDetails #links h2 {
     margin-bottom: 0.2rem;
     text-decoration: underline 0.25rem solid #DBE8D4;
 }
 
-#links ul {
+.projectDetails #links ul {
     margin-top: 0.2rem;
     padding: 0;
 }

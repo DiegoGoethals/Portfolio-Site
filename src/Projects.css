@@ -10,6 +10,11 @@
     flex-wrap: wrap;
 }
 
+#project a {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 #projects li {
     border-radius: 50%;
     position: relative;
@@ -28,8 +33,18 @@
 
 #projects li h3 {
     position: absolute;
+    color: #DBE8D4;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1.8);
     transition: all 0.8s;
+    text-transform: capitalize;
+}
+
+#projects li:hover img {
+    opacity: 1;
+}
+
+#projects li:hover h3 {
+    opacity: 0;
 }
